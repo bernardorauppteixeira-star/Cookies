@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cookies - O que são e como funcionam</title>
+  <link rel="stylesheet" href="css.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Cookies: o que são, para que servem e como funcionam</h1>
+      <p>Aprenda de forma simples e interativa o papel dos cookies na navegação, privacidade e experiência online.</p>
+    </div>
+    <button id="exploreBtn" class="hero-btn">Explorar agora</button>
+  </header>
 
+  <main class="container">
+    <section class="intro">
+      <h2>O que você vai aprender</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>O que são cookies?</h3>
+          <p>Pequenos arquivos que os sites salvam no seu navegador para lembrar informações e tornar a navegação mais fácil.</p>
+        </article>
+        <article class="card">
+          <h3>Para que servem?</h3>
+          <p>Eles ajudam a manter você conectado, guardar preferências, personalizar conteúdo e melhorar o desempenho do site.</p>
+        </article>
+        <article class="card">
+          <h3>Como funcionam?</h3>
+          <p>O navegador envia o cookie de volta ao site em cada visita, permitindo que o site reconheça você e mantenha suas configurações.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="interactive">
+      <h2>Explique para mim</h2>
+      <div class="tabs">
+        <button class="tab-button active" data-target="what">O que são?</button>
+        <button class="tab-button" data-target="purpose">Para que servem?</button>
+        <button class="tab-button" data-target="how">Como funcionam?</button>
+      </div>
+      <div class="tab-panels">
+        <article id="what" class="tab-panel active">
+          <h3>O que são cookies?</h3>
+          <p>Cookies são arquivos de texto curtos criados por sites e armazenados no seu computador, celular ou tablet. Eles não são programas e não carregam vírus. São usados apenas para guardar dados sobre a sua visita ao site.</p>
+          <ul>
+            <li>Guardam informações como idioma, itens do carrinho ou sessão ativa.</li>
+            <li>Existem cookies de sessão (apagam quando você fecha o navegador) e persistentes (ficam por mais tempo).</li>
+          </ul>
+        </article>
+
+        <article id="purpose" class="tab-panel">
+          <h3>Para que servem os cookies?</h3>
+          <p>Os cookies ajudam os sites a lembrar você e criar uma experiência mais fluida.</p>
+          <ul>
+            <li>Manter você conectado em um site.</li>
+            <li>Salvar preferências de idioma e layout.</li>
+            <li>Personalizar anúncios e conteúdo relevante.</li>
+            <li>Medir visitas e desempenho do site.</li>
+          </ul>
+        </article>
+
+        <article id="how" class="tab-panel">
+          <h3>Como os cookies funcionam?</h3>
+          <p>Quando você visita um site, ele pede ao navegador para salvar um cookie. Nas próximas visitas, o navegador envia esse cookie de volta ao site.</p>
+          <ol>
+            <li>Você acessa um site pela primeira vez.</li>
+            <li>O site cria um cookie com dados como sua preferência.</li>
+            <li>O navegador guarda o cookie.</li>
+            <li>Na próxima visita, o navegador envia o cookie ao site automaticamente.</li>
+          </ol>
+          <p>Assim, o site reconhece você e oferece uma navegação personalizada.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quiz">
+      <h2>Teste rápido</h2>
+      <p>Escolha uma opção e veja se a resposta está certa.</p>
+      <div class="question-card">
+        <p class="question">Qual alternativa descreve melhor um cookie?</p>
+        <div class="options">
+          <button class="option" data-correct="false">Um programa que roda no navegador</button>
+          <button class="option" data-correct="true">Um arquivo que guarda informações do site</button>
+          <button class="option" data-correct="false">Uma imagem que o site exibe</button>
+        </div>
+        <p id="feedback" class="feedback"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Cookie explicado de forma clara e interativa. Aprenda sobre privacidade e navegação responsável.</p>
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+</html>
